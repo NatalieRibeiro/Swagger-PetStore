@@ -119,32 +119,38 @@ public class Pet
             return this;
         }
 
-        public PetBuilder inCategory(Category category) {
+        public PetBuilder inCategory(Category category) 
+        {
             this.category = category;
             return this;
         }
 
-        public PetBuilder withName(String name) {
+        public PetBuilder withName(String name) 
+        {
             this.name = name;
             return this;
         }
 
-        public PetBuilder withPhotoUrls(List<String> photoUrls) {
+        public PetBuilder withPhotoUrls(List<String> photoUrls) 
+        {
             this.photoUrls = photoUrls;
             return this;
         }
 
-        public PetBuilder withTags(List<Tag> tags) {
+        public PetBuilder withTags(List<Tag> tags) 
+        {
             this.tags = tags;
             return this;
         }
 
-        public PetBuilder withStatus(Status status) {
+        public PetBuilder withStatus(Status status) 
+        {
             this.status = status;
             return this;
         }
 
-        public Pet build() {
+        public Pet build() 
+        {
             Pet pet = new Pet();
             pet.id = this.id;
             pet.name = this.name;

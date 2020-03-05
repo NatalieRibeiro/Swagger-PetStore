@@ -6,12 +6,8 @@
 
   <groupId>com.tradeix</groupId>
   <artifactId>swaggerpetstore</artifactId>
-<<<<<<< HEAD
   <version>1.2</version>
-=======
-  <version>1.0</version>
->>>>>>> fc4fa828f5caf55d5ed9ebf8f5cc3ce09a372a85
-
+  
   <dependencies>
     <dependency>
         <groupId>io.rest-assured</groupId>

@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-
-<suite name="Trade IX API tests" verbose="1" >
-    <test name="Trade IX PetStore Swagger tests">
-        <classes>
-            <class name="com.tradeix.PetTests"/>
-        </classes>
-    </test>
-</suite>

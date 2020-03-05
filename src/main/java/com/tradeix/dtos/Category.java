@@ -1,3 +1,5 @@
+package com.tradeix.dtos;
+
 import java.util.Objects;
 
 public class Category 
@@ -51,7 +53,7 @@ public class Category
     @Override
     public String toString()
     {
-        var categoryPayload = String.format("Category{id= %d, name='%s'\\}", id, name);
+        String categoryPayload = String.format("Category{id= %d, name='%s'\\}", id, name);
         return categoryPayload;
     }
 }

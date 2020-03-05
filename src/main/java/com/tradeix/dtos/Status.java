@@ -1,3 +1,5 @@
+package com.tradeix.dtos;
+
 public enum Status 
 {
     available("available"),

@@ -1,3 +1,5 @@
+package com.tradeix.dtos;
+
 import java.util.Objects;
 
 public class Tag 
@@ -51,7 +53,7 @@ public class Tag
     @Override
     public String toString()
     {
-        var tagPaylod = String.format("Tag{id= %d, name='%s'\\}", id, name);
+        String tagPaylod = String.format("Tag{id= %d, name='%s'\\}", id, name);
         return tagPaylod;
     }
 }
